@@ -10,11 +10,11 @@
 
 ###
 
-<p align="left">📚 Estou sempre em aprendizado<br>🎯 Sempre com o objetivo de fazer o bem</p>
+<p align="left">📚 Estou sempre em constante aprendizado<br>🎯 Sempre com o objetivo de fazer o bem</p>
 
 ###
 
-<h2 align="left">Eu faço codigo com:</h2>
+<h2 align="left">Linguagens ultilizadas</h2>
 
 ###
 
@@ -34,9 +34,11 @@
 
 ###
 
-<div align="center">
-  <img height="200" src="https://preview.redd.it/rqjwfhkr3bb71.gif?width=500&auto=webp&s=8ec91316c5b36c9b26399275e4852f32cb735d25"  />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
+</picture>
 
 ###
 
