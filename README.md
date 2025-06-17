@@ -42,10 +42,16 @@
 
 ###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/folkbarbecue/folkbarbecue/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/folkbarbecue/folkbarbecue/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/folkbarbecue/folkbarbecue/output/pacman-contribution-graph.svg">
-</picture>
+npm install pacman-contribution-graph
 
+import { PacmanRenderer } from 'pacman-contribution-graph';
+
+const pr = new PacmanRenderer({
+    platform: 'github',
+    username: 'yourusername',
+    canvas: document.getElementById('canvas'),
+    outputFormat: 'canvas',
+    gameTheme: 'github'
+});
+pr.start();
 ###
