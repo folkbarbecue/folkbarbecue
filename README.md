@@ -42,16 +42,6 @@
 
 ###
 
-npm install pacman-contribution-graph
+<img src="https://raw.githubusercontent.com/folkbarbecue/folkbarbecue/output/snake.svg" alt="Snake animation" />
 
-import { PacmanRenderer } from 'pacman-contribution-graph';
-
-const pr = new PacmanRenderer({
-    platform: 'github',
-    username: 'yourusername',
-    canvas: document.getElementById('canvas'),
-    outputFormat: 'canvas',
-    gameTheme: 'github'
-});
-pr.start();
 ###
